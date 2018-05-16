@@ -1,0 +1,140 @@
+#+TITLE: 玻璃小屋
+
+[[file:img/玻璃小屋.png]]
+
+* Table of Contents                                       :TOC_4_gh:noexport:
+- [[#description][Description]]
+  - [[#management][Management]]
+    - [[#无广告][无广告]]
+      - [[#description-1][Description]]
+    - [[#收付费方式][收付费方式]]
+      - [[#description-2][Description]]
+    - [[#举报机制][举报机制]]
+      - [[#description-3][Description]]
+    - [[#管理员机制][管理员机制]]
+      - [[#description-4][Description]]
+    - [[#封推-搜索根据][封推, 搜索根据]]
+      - [[#description-5][Description]]
+    - [[#讨论-交流版块类似于贴吧][讨论, 交流版块(类似于贴吧)]]
+      - [[#description-6][Description]]
+    - [[#提建议版块][提建议版块]]
+      - [[#description-7][Description]]
+    - [[#私人设计-仓库管理][私人设计, 仓库管理]]
+      - [[#description-8][Description]]
+    - [[#分类和分级功能][分类和分级功能]]
+      - [[#description-9][Description]]
+  - [[#features][Features]]
+    - [[#聊天室][聊天室]]
+      - [[#description-10][Description]]
+    - [[#星数评估][星数评估]]
+      - [[#description-11][Description]]
+    - [[#版本控制][版本控制]]
+      - [[#description-12][Description]]
+    - [[#休闲区][休闲区]]
+      - [[#description-13][Description]]
+    - [[#3d个人形象-及小宠物][3D个人形象, 及小宠物]]
+      - [[#description-14][Description]]
+    - [[#多模块-真正的电子书心得交流-合作创作等功能介绍][多模块, 真正的电子书(心得交流, 合作创作等功能介绍)]]
+      - [[#description-15][Description]]
+    - [[#数据共享][数据共享]]
+      - [[#description-16][Description]]
+    - [[#源码开放][源码开放]]
+      - [[#description-17][Description]]
+    - [[#自由编辑][自由编辑]]
+      - [[#description-18][Description]]
+    - [[#定制型][定制型]]
+      - [[#description-19][Description]]
+    - [[#多浏览模式类似vim的多编辑模式-快捷键等键盘浏览模式][多浏览模式(类似vim的多编辑模式), 快捷键等键盘浏览模式]]
+      - [[#description-20][Description]]
+- [[#how-to-develop][How to develop]]
+
+* Description
+  本文档是关于玻璃小屋阅读网站的开发目的, 目标, 想法, 以及开发困难的一个说明文档
+  
+  我们的主旨是, 将任何可以用纸质书承载的内容, 在该网站您都可以浏览, 在这里可以进行小说, 漫画, 摄影集, 甚至
+  写书论文等各方面的创作.
+  
+  这里的一切都是开放的, 免费的
+
+  我们并不开发关于视频, 游戏方面的内容.
+  
+** Management
+*** 无广告
+**** Description
+     
+*** 收付费方式
+**** Description
+*** 举报机制
+**** Description
+*** 管理员机制
+**** Description
+*** 封推, 搜索根据
+**** Description
+*** 讨论, 交流版块(类似于贴吧)
+**** Description
+*** 提建议版块
+**** Description
+    
+*** 私人设计, 仓库管理
+**** Description
+*** 分类和分级功能
+**** Description
+     
+** Features
+*** 聊天室
+**** Description
+     1. 类似于qq群, 任何人都可以创建.
+     2. 各版块之间设置公共聊天室, 可以畅所欲言.
+     
+*** 星数评估
+**** Description
+     1. 产品星数: 
+        玻璃小屋的各个部分都可以由任何人进行设计(例如: 阅读界面, 默认界面, 编辑工具, 连接名称等), 
+        根据该 设计的收藏数, 引用数(其他人在设计时将该设计作为母本), 用户的使用次数, 使用时间等因素
+        决定该设计的星数.
+      
+     2. 个人星数:
+        玻璃小屋有很多板块, 例如: 
+            1. 小说, 漫画, 论文等一切理论上可以在纸质书上表述的内容.
+            2. 编辑器的设计
+            3. 界面设计
+            4. ...
+        根据对应板块的产品星数来决定用户在该板块的个人星数.
+
+     3. 团队星数:
+        类似个人星数.
+     
+*** 版本控制
+**** Description
+     
+*** 休闲区
+**** Description
+     
+*** 3D个人形象, 及小宠物
+**** Description
+     
+*** 多模块, 真正的电子书(心得交流, 合作创作等功能介绍)
+**** Description
+     
+*** 数据共享
+**** Description
+     
+*** 源码开放
+**** Description
+     
+*** 自由编辑
+**** Description
+*** 定制型
+**** Description
+     
+*** 多浏览模式(类似vim的多编辑模式), 快捷键等键盘浏览模式
+**** Description
+     
+* How to develop
+  1. 参考wiki的运行模式, 设置管理员和募捐制度, 非盈利.
+  2. 后端开发语言: Racket
+  3. 公开网站的源代码
+  4. 注重网站上的安全性和反盗版功能
+  5. 文案
+  6. 网站金额公开, 用来对该网站进行维护, 由上层决定如何使用
+  7. 用户上传的任意数据(传入私有仓库除外), 其他人都可以下载, 如涉及版权和隐私问题, 由上传者承担相应责任   
